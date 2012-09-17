@@ -1,0 +1,50 @@
+{
+	'inbox': [
+		{
+			'id': 1,
+			'subject': 'Testing Inbox',
+			'message': 'Testing',
+			'from': 'test@testing.com',
+			'to': 'to@testing.com',		
+		},
+		{
+			'id': 2,
+			'subject': 'Testing Inbox',
+			'message': 'Testing',
+			'from': 'test@testing.com',
+			'to': 'to@testing.com',		
+		}		
+	],
+	'sent':[
+		{
+			'id': 1,
+			'subject': 'Testing Sent',
+			'message': 'Testing',
+			'from': 'test@testing.com',
+			'to': 'to@testing.com',		
+		},
+		{
+			'id': 2,
+			'subject': 'Testing Sent',
+			'message': 'Testing',
+			'from': 'test@testing.com',
+			'to': 'to@testing.com',		
+		}		
+	],
+	draft[
+		{
+			'id': 1,
+			'subject': 'Testing Draft',
+			'message': 'Testing',
+			'from': 'test@testing.com',
+			'to': 'to@testing.com',		
+		},
+		{
+			'id': 2,
+			'subject': 'Testing Draft',
+			'message': 'Testing',
+			'from': 'test@testing.com',
+			'to': 'to@testing.com',		
+		}		
+	],
+}
