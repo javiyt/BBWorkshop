@@ -4,6 +4,7 @@ var MailboxRouter = Backbone.Router.extend({
         'folder/:folder': 'showFolder',
         '*home': 'home'
     },
+    view: {},
     composeEmail: function()
     {
 
@@ -15,6 +16,10 @@ var MailboxRouter = Backbone.Router.extend({
     home: function()
     {
 
+    },
+    initialize: function()
+    {
+        this.view = new MailBoxView();
     }
 });
 
